@@ -1,31 +1,47 @@
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>References</title>
-    <meta name="HandheldFriendly" content="true">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="phase2.css">
-    <script src="script.js" async defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script>
+    $( function() {
+        $( "#accordion" ).accordion();
+    } ); 
+    </script> 
+    <script type="text/javascript" src="ref.js"></script>  
 </head>
 <body>
     <div class="box2">
         
-        <h1 class="header"> Professional References</h1 down:50px>
+        <h1 class="header"> Professional References</h1>
 
-        <hr>
-        <!--<img src="job_photo_man.png" style="float: right; margin-right: 100px; margin-bottom:-10px"/>-->
-        <h5 class="contact-info-header">Domenic Steven - Brand Manager at Diamond Technologies</h5>
-      
-        <h6 class="contact-info-data"><br>Contact: 4887 South side Lane Toronto,ON 9004-domenic_steven@diamondtechnologies.com - +1213-200-8542</h6>
-        <h5 class="contact-info-header">Zoe Denise - Content Marketing Manager at Electra Sports</h5>
-      
-        <h6 class="contact-info-data"><br>Contact - 4784 John Calvin Drive Burr Ridge,IL,60527-zoedenise123@electrasports.com - +1217-200-7697</h6>
-
-        <h5 class="contact-info-header">Carla Lloyd - Vice President of Marketing at Imaginenetworks</h5>
-      
-        <h6 class="contact-info-data"><br>Contact - 1753 Oakwood Avenue New York,NY, 10021 lloydcarla@imaginenetworks.com - +1212-203-8710 <br></h6>        
-        
+        <nav>
+            <ul>
+                <a href="../project_heena/Home_page.html"><li>Home</li></a>
+            </ul>
+        </nav>
+        <div id="accordion">
+            <p class="contact-info-header">Domenic Steven - Brand Manager at Diamond Technologies</p>
+            <div>
+                <p class="contact-info-data"><br>Contact: 4887 South side Lane Toronto,ON 9004-domenic_steven@diamondtechnologies.com - +1213-200-8542</p>        
+            </div>
+            <p class="contact-info-header">Zoe Denise - Content Marketing Manager at Electra Sports</p>
+            <div>
+                <p class="contact-info-data"><br>Contact - 4784 John Calvin Drive Burr Ridge,IL,60527-zoedenise123@electrasports.com - +1217-200-7697</p>        
+            </div>
+            <p class="contact-info-header">Carla Lloyd - Vice President of Marketing at Imaginenetworks</p>
+            <div>
+                <p class="contact-info-data"><br>Contact - 1753 Oakwood Avenue New York,NY, 10021 lloydcarla@imaginenetworks.com - +1212-203-8710</p>    
+            </div>
+        </div>
+                        
 </div>
+<footer>
+    <p>Copy right Interactive Resume</p>
+    <p>champions@humber.ca</p>
+</footer>
 </body>
+
 </html>
